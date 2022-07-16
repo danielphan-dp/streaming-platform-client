@@ -11,7 +11,7 @@ const store = createStore(reducers);
 const container = document.querySelector('#root');
 const root = ReactDOM.createRoot(container);
 root.render(
-  <Provider>
+  <Provider store={store}>
     <App />
   </Provider>
 );
