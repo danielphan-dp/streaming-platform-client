@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/streaming-platform-client/static/js/main.7362cf37.js",
+    "main.js": "/streaming-platform-client/static/js/main.932250d4.js",
     "index.html": "/streaming-platform-client/index.html",
-    "main.7362cf37.js.map": "/streaming-platform-client/static/js/main.7362cf37.js.map"
+    "main.932250d4.js.map": "/streaming-platform-client/static/js/main.932250d4.js.map"
   },
   "entrypoints": [
-    "static/js/main.7362cf37.js"
+    "static/js/main.932250d4.js"
   ]
 }
