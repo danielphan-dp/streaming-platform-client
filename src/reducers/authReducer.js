@@ -2,6 +2,7 @@ import { SIGN_IN, SIGN_OUT } from '../actions/types';
 
 const INITIAL_STATE = {
   isSignedIn: null,
+  userId: null,
 };
 
 const authReducer = (state = INITIAL_STATE, action) => {
@@ -10,11 +11,13 @@ const authReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         isSignedIn: true,
+        userId: action.payload,
       };
     case SIGN_OUT:
       return {
         ...state,
         isSignedIn: false,
+        userId: null,
       };
     default:
       return state;
